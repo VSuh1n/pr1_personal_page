@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:i;
+    font-family: 'Monospace', 'Lucida Sans';
     }
     body{
     margin: 0;
     padding: 0;
-    background: url(bkground.jpg) no-repeat;
+    background: url(bkground.webp) no-repeat;
     background-size: cover;
     }
     .box{
+      border-radius: 10%;
     width: 450px;
     background: rgba(0, 0, 0,0.8);
     padding: 40px;
@@ -18,18 +19,19 @@
     margin: auto;
     margin-top: 5%;
     color: white;
-    font-family: Consolas;
+    font-family: 'Monospace', 'Lucida Sans';
     }
     .box-img{
-    border-radius: 50%;
-    width: 200px;
+    border-radius: 20%;
+    width: 230px;
     height: 200px;
     }
     .box h1{
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom:40px;
     }
     .box h5{
     font-size: 18px;
